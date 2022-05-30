@@ -19,3 +19,8 @@ list2 = list
 print(list,list2)
 list2[2]=4
 print(list,list2)
+# list can be assigned using slice operation to avoid above feature
+# example 
+list2 = list[:]#this way list2 is pointing to list stored at different location so changes in either will not affect other
+list[3]=6
+print(list,list2)#output [1, 3, 4, 6] [1, 3, 4, 7]
