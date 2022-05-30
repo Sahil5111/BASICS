@@ -24,3 +24,8 @@ print(list,list2)
 list2 = list[:]#this way list2 is pointing to list stored at different location so changes in either will not affect other
 list[3]=6
 print(list,list2)#output [1, 3, 4, 6] [1, 3, 4, 7]
+# to avoid above confusion is operator is used 
+print(list is list2)#is operator checks whether var are pointing to same location
+# list concatenation
+list=list + list2
+print(list)#output [1, 3, 4, 6, 1, 3, 4, 7]
