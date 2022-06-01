@@ -16,3 +16,7 @@ else :
 for i in range(0,6):#as expected this range ends one before upper limit 
     print(i)
 # and loop runs for every integral value between limits of range
+# while loop in pyrhon 
+while a<=20 :
+    print(a)
+    a=a+1
