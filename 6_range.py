@@ -30,3 +30,9 @@ for i in range(0,11,2):
 
 for i in range(10,0,-2):
     print(i)
+
+
+# type conversion in python
+# list() is used to convert given things to a list 
+# str() is used to convert given things to a string
+# int() converts given string to an int
