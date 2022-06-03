@@ -1,7 +1,4 @@
 # function defination in python 
-from asyncio.windows_events import NULL
-from ctypes import sizeof
-
 
 def sum (a,b):
     return (a+b)
