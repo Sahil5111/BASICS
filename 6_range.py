@@ -36,3 +36,7 @@ for i in range(10,0,-2):
 # list() is used to convert given things to a list 
 # str() is used to convert given things to a string
 # int() converts given string to an int
+a="36"
+b=int(a)
+
+print(type(a),type(b))
