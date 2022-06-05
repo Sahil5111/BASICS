@@ -1,3 +1,6 @@
+# important functions are at line
+# 42 46 50 58 
+
 # we can store all types of values
 list=[1,"sahil",True]
 print(list)
