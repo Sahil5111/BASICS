@@ -35,7 +35,6 @@ print(list)#output [1, 3, 4, 6, 1, 3, 4, 7]
 
 # using concatenation list points to new list 
 # to avoid this append is used
-list =[1,3,5,7]
 list2=list 
 list.append(11)#thus both list varisable are pointing at same list 
 # print(list2,list)
@@ -51,3 +50,6 @@ print(list2,list)
 # slice operation 
 list[3:]=[5,6,7]#as changes are occuring to pointed location both list variables change
 print(list2,list)
+
+# 5 in list is command that returns true or false if 5 is in list list
+print(11 in list ) 
