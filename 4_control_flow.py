@@ -39,3 +39,18 @@ list =[1,3,5,7]
 
 a=findpos(list,10)
 print(a)
+
+
+# smarter function to do the same task
+#  else statement for for loop
+def smartpos(a,b):
+    for i in range(len(a)):
+        if b==a[i]:
+            pos=i
+            break
+    else :              #this statement runs if there is no break
+        pos =-1 
+    return pos 
+
+a=[1,3,5,7]
+print(smartpos(a,3))
