@@ -25,7 +25,8 @@ while a<=20 :
     print(a)
     a=a+1
 
-
+# naive algorithm to check pos in given a list 
+# it returns len(a) if element is not found  
 def findpos (a,b):
     i=0
     for x in a:
