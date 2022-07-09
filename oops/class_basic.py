@@ -25,7 +25,7 @@ class student:
 
 
 sahil=student("sahil",59)
-aditya=student("aditya",58)
+aayush=student("aayush",58)
 sahil.pc.cpu="i7"
 sahil.show()
-aditya.show()
+aayush.show()
