@@ -1,0 +1,6 @@
+file =open("./writableFile.txt","r+")
+file.write("this line is added by 10_read+write.py")
+file.close()
+file =open("./writableFile.txt","r+")
+print(file.readline())
+file.close()
